@@ -1,3 +1,3 @@
 # cpe232floresmarc.github.io
-CPE232 - CPE31S4  Portfolio <br>
-Flores, Marc Oliver U.
+Final Project Portfolio <br>
+Flores, Marc Oliver U. - CPE232 - CPE31S4 
