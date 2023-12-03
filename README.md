@@ -5,10 +5,10 @@
 <hr>
 
 <h1 align="center">Prelim Period</h1>
-Hands-on Activity 1 [Creating Virtual Machines](https://github.com/Mofu24/HOA1.git) <br>
-Hands-on Activity 2 [SSH Key-Based Authentication and GIT Setup](https://github.com/Mofu24/HOA2.git) <br>
-Hands-on Activity 3 [Install SSH server on CentOS or RHEL 8](https://github.com/Mofu24/HOA3.git) <br>
-Hands-on Activity 4 [Ansible Basics](https://github.com/Mofu24/CPE232_floresmarc.git)<br>
+- Hands-on Activity 1 [Creating Virtual Machines](https://github.com/Mofu24/HOA1.git) <br>
+- Hands-on Activity 2 [SSH Key-Based Authentication and GIT Setup](https://github.com/Mofu24/HOA2.git) <br>
+- Hands-on Activity 3 [Install SSH server on CentOS or RHEL 8](https://github.com/Mofu24/HOA3.git) <br>
+- Hands-on Activity 4 [Ansible Basics](https://github.com/Mofu24/CPE232_floresmarc.git) <br>
 
 - Hands-on Activity 5 [Implementing Ansible roles in playbooks](https://github.com/Mofu24/HOA5.git)
 
