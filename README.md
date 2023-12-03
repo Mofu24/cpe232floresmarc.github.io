@@ -2,6 +2,7 @@
 <h1 align="center">Final Project (CPE 232)</h1>
 <h3 align="center">Final Project submission by Flores, Marc Oliver U. CPE31S4</h3>
 
+<h1 align="center">Prelim Period</h1>
 - Hands-on Activity 1 [Creating Virtual Machines](https://github.com/Mofu24/HOA1.git)
 
 - Hands-on Activity 2 [SSH Key-Based Authentication and GIT Setup](https://github.com/Mofu24/HOA2.git)
