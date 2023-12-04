@@ -27,3 +27,11 @@
 - Hands-on Activity 13 [Openstack Prerequisite Installation](https://github.com/Mofu24/HOA13.git)
 - Hands-on Activity 14 [Openstack Installation(Keystone, Glance, Nova)](https://github.com/Mofu24/HOA14.git)
 - Hands-on Activity 15 [Openstack Installation(Neutron, Horizon, Cinder)](https://github.com/Mofu24/HOA15.git)
+
+<h1 align="center">Reflection and Learnings</h1>
+
+<h3>Reflection</h3>
+- 
+
+<h3>Learnings</h3>
+- 
