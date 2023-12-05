@@ -44,7 +44,7 @@
             margin-bottom: 20px;
             padding-bottom: 10px;
         }
-        nav {
+         nav {
             background-color: #333;
             color: white;
             text-align: center;
@@ -65,10 +65,21 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+            cursor: pointer;
         }
 
         nav ul li a:hover {
             text-decoration: underline;
+        }
+
+        /* Hide all sections by default */
+        .section {
+            display: none;
+        }
+
+        /* Show the selected section */
+        .show {
+            display: block;
         }
     </style>
 </head>
@@ -76,11 +87,10 @@
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#prelim">Prelim Period</a></li>
-            <li><a href="#midterm">Midterm Period</a></li>
-            <li><a href="#final">Final Period</a></li>
-            <li><a href="#reflection">Reflection</a></li>
-            <li><a href="#learnings">Learnings</a></li>
+            <li><a onclick="showSection('prelim')">Prelim Period</a></li>
+            <li><a onclick="showSection('midterm')">Midterm Period</a></li>
+            <li><a onclick="showSection('final')">Final Period</a></li>
+            <li><a onclick="showSection('reflections-learnings')">Reflections & Learnings</a></li>
         </ul>
     </nav>
 
@@ -89,7 +99,7 @@
         <h3>Final Project submission by Flores, Marc Oliver U. CPE31S4</h3>
 
         <!-- Anchors for sections -->
-        <div id="prelim" class="section-title">
+        <div id="prelim" class="section">
             <li><a href="https://github.com/Mofu24/HOA1.git">Hands-on Activity 1 - Creating Virtual Machines</a></li>
             <li><a href="https://github.com/Mofu24/HOA2.git">Hands-on Activity 2 - SSH Key-Based Authentication and GIT Setup</a></li>
             <li><a href="https://github.com/Mofu24/HOA3.git">Hands-on Activity 3 - Install SSH server on CentOS or RHEL 8</a></li>
@@ -98,7 +108,7 @@
             <li><a href="https://github.com/Mofu24/Flores_PrelimExam.git">Prelim Examination - Major Examination</a></li>
         </div>
 
-        <div id="midterm" class="section-title">
+        <div id="midterm" class="section">
             <li><a href="https://github.com/Mofu24/HOA6.git">Hands-on Activity 6 - Targeting specific nodes</a></li>
             <li><a href="https://github.com/Mofu24/HOA7.git">Hands-on Activity 7 - Managing files and Creating Roles in Ansible</a></li>
             <li><a href="https://github.com/Mofu24/HOA8.git">Hands-on Activity 8  Install, Configure and Manage Enterprise Availability Monitoring via Ansible</a></li>
@@ -107,7 +117,7 @@
             <li><a href="https://github.com/Mofu24/CPE_MIDEXAM_FLORES.git">Midterm Exam - Major Examination</a></li>
         </div>
 
-        <div id="final" class="section-title">
+        <div id="final" class="section">
             <li><a href="https://github.com/Mofu24/HOA11.git">Hands-on Activity 11 - Containerization</a></li>
             <li><a href="https://github.com/Mofu24/HOA12.git">Hands-on Activity 12 - Build a sample web app in a Docker Container</a></li>
             <li><a href="https://github.com/Mofu24/HOA13.git">Hands-on Activity 13 - Openstack Prerequisite Installation</a></li>
@@ -115,7 +125,7 @@
             <li><a href="https://github.com/Mofu24/HOA15.git">Hands-on Activity 15 - Openstack Installation(Neutron, Horizon, Cinder)</a></li>
         </div>
 
-        <div id="reflections-learnings" class="section-title">
+        <div id="reflections-learnings" class="section">
             <h1>Reflection and Learnings</h1>
             <h3>Reflection</h3>
             <ul>
@@ -127,10 +137,21 @@
             </ul>
         </div>
     </div>
-</body>
-</html>
 
+    <!-- JavaScript to handle showing/hiding sections -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('show');
+            });
 
-
+            // Show the selected section
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('show');
+        }
+    </script>
+    
 </body>
 </html>
